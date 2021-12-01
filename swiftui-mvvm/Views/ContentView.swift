@@ -47,7 +47,11 @@ struct ContentView_Previews: PreviewProvider {
         ContentView(.init(state: .init(isLoading: true)))
             .previewDisplayName("Loading")
         
-        ContentView(.init(state: .init(message: "Hello, word!")))
-            .previewDisplayName("Loaded")
+        Group {
+            ContentView(.init(state: .init(message: "Hello, word!")))
+                .previewDisplayName("Loaded")
+            ContentView(.init(state: .init(message: "Hello, word!")))
+                .previewDisplayName("Loaded")
+        }
     }
 }
