@@ -44,12 +44,9 @@ final class ContentViewModel: ObservableObject {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(.init(state: .init(isLoading: true)))
-            .previewDisplayName("Loading")
-        
         Group {
-            ContentView(.init(state: .init(message: "Hello, word!")))
-                .previewDisplayName("Loaded")
+            ContentView(.init(state: .init(isLoading: true)))
+                .previewDisplayName("Loading")
             ContentView(.init(state: .init(message: "Hello, word!")))
                 .previewDisplayName("Loaded")
         }

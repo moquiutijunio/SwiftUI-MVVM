@@ -453,6 +453,7 @@
 				DEVELOPMENT_TEAM = M9J6GZ3GRE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "swiftui-mvvm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,6 +475,7 @@
 				DEVELOPMENT_TEAM = M9J6GZ3GRE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "swiftui-mvvm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
